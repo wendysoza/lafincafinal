@@ -1,0 +1,253 @@
+@font-face{
+    font-family:Fuentechida;
+    src:url(fonts/OleoScript-Regular.ttf);
+    }
+        body{
+            background-image: url(../files/is.png);
+            max-width: 80%; 
+            height: auto;
+            background-size:cover;
+            background-repeat: no-repeat;
+            background-attachment:fixed;
+        }
+        .img-fluid { 
+            max-width: 100%; 
+            height: auto;
+        }
+        
+        .formulario{
+            transition: 2s;
+            margin-top: 287px;
+            margin-left: 60%;
+            width: 30%;
+            box-shadow: 0px 0px 40px #14bcff, 0px 0px 80px rgb(255 255 255);
+        }
+    
+        .formulario:hover{
+            transition: .8s;
+            background-color: rgba(0,0,0,.5);
+        }
+    
+    
+       .logo{
+         height: 157px;
+         width: 378px;
+         margin-top: -2px;
+         margin-left: -114px;
+        }
+        
+        .espaciado{
+            margin-top: 40px;
+        }
+    
+        fieldset{
+            transition: 2s;
+            margin-bottom: 50px;
+            border-color: rgba(213,0,0 ,1);
+            border-style: groove;
+            border-width: 5px;
+            border-radius: 20px;
+        }
+        
+    
+    
+       h3,h4{
+            
+            color:white;
+            text-align: center;
+            font-family: fuentechida;
+        }
+      
+        .Input{
+            transition: .8s;
+            background-color: rgba(0,0,0,.5);
+            color: white;
+            border-color:#006;
+            border-bottom-color:white;
+            border-bottom-style:groove;
+            border-left:none;
+            border-right:none;
+            border-top:none;
+            border-width: 4px;
+            
+        }
+    
+        .Input:hover{
+            transition: .8s;
+            background-color:rgba(55,71,79 ,.5);
+            box-shadow:inset;
+            border-bottom-color:red;
+        }
+        
+        .Input:focus{
+            transition: .8s;
+            border-bottom-color:red;
+        }
+
+        .a1{
+            color:rgb(0, 0, 0);
+            text-align: center;
+            font-family: fuentechida;  
+        }
+    
+      
+      
+        @media screen and (max-width:750px) {
+            body{
+                background-image: url(../files/is2.png);
+                max-width: 80%; 
+                height: auto;
+                background-size:cover;
+                background-repeat: no-repeat;
+                background-attachment:fixed;
+            }
+            .logo{
+                height: 50px;
+    
+            }
+            .formulario{
+                transition: 2s;
+                width: 95%;
+                margin-top: 331px;
+                
+            }
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+        
+.login {
+    overflow: hidden;
+    background-color: white;
+    padding: 10px 37px 30px 30px;
+    border-radius: 34px;
+    position: absolute;
+    top: 447px;
+    left: 857px;
+    width: 424px;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    -webkit-transition: -webkit-transform 300ms, box-shadow 300ms;
+    -moz-transition: -moz-transform 300ms, box-shadow 300ms;
+    transition: transform 300ms, box-shadow 300ms;
+    box-shadow: 5px 10px 10px rgba(3, 60, 68, 0.87);
+  }
+  .login::before, .login::after {
+    content: "";
+    position: absolute;
+    width: 600px;
+    height: 600px;
+    border-top-left-radius: 40%;
+    border-top-right-radius: 45%;
+    border-bottom-left-radius: 35%;
+    border-bottom-right-radius: 40%;
+    z-index: -1;
+  }
+  .login::before {
+    left: 39%;
+    bottom: -94%;
+    background-color: rgba(69, 105, 144, 0.15);
+    -webkit-animation: wawes 6s infinite linear;
+    -moz-animation: wawes 6s infinite linear;
+    animation: wawes 6s infinite linear;
+  }
+  .login::after {
+    left: 50%;
+    bottom: -125%;
+    top: 35%;
+    background-color: rgba(2, 128, 144, 0.2);
+    -webkit-animation: wawes 7s infinite;
+    -moz-animation: wawes 7s infinite;
+    animation: wawes 7s infinite;
+  }
+  .login > input {
+    font-family: "Asap", sans-serif;
+    display: block;
+    border-radius: 5px;
+    font-size: 16px;
+    background: white;
+    width: 100%;
+    border: 0;
+    padding: 10px 10px;
+    margin: 15px -10px;
+  }
+  .login > button {
+    font-family: "Asap", sans-serif;
+    cursor: pointer;
+    color: #fff;
+    font-size: 16px;
+    text-transform: uppercase;
+    width: 113px;
+    border: 0;
+    padding: 10px 0;
+    margin-top: 10px;
+    margin-left: -5px;
+    border-radius: 5px;
+    background-color: #006363;
+    -webkit-transition: background-color 300ms;
+    -moz-transition: background-color 300ms;
+    transition: background-color 300ms;
+  }
+  .login > button:hover {
+    background-color: #6ea7e7;
+  }
+
+  .img1{
+    border: 0;
+    padding: 1px;
+    position: relative;
+    left: 79px;
+  }
+  
+  @-webkit-keyframes wawes {
+    from {
+      -webkit-transform: rotate(0);
+    }
+    to {
+      -webkit-transform: rotate(360deg);
+    }
+  }
+  @-moz-keyframes wawes {
+    from {
+      -moz-transform: rotate(0);
+    }
+    to {
+      -moz-transform: rotate(360deg);
+    }
+  }
+  @keyframes wawes {
+    from {
+      -webkit-transform: rotate(0);
+      -moz-transform: rotate(0);
+      -ms-transform: rotate(0);
+      -o-transform: rotate(0);
+      transform: rotate(0);
+    }
+    to {
+      -webkit-transform: rotate(360deg);
+      -moz-transform: rotate(360deg);
+      -ms-transform: rotate(360deg);
+      -o-transform: rotate(360deg);
+      transform: rotate(360deg);
+    }
+  }
+  a {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.6);
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+    font-size: 12px;
+  }

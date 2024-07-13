@@ -1,0 +1,35 @@
+.main{
+    height: 470px;
+    padding: 20px;
+    background-image: url('https://w7.pngwing.com/pngs/567/444/png-transparent-robotics-chatbot-technology-robot-education-electronics-computer-program-humanoid-robot-thumbnail.png');
+    border-radius: 10px 10px 0px 0px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    background-size: 120%;
+    background-position: center;
+    box-shadow: inset 0px 0px 10px -5px rgb(160, 160, 160);
+    background-repeat: no-repeat;
+    opacity: .7;
+}
+
+#inp_text{
+    border-radius: 20px;
+    border-radius: 0px 0px 0px 20px;
+    box-shadow: inset 0px 0px 5px -2px rgb(160, 160, 160);
+}
+
+.main::-webkit-scrollbar{
+    width: 8px;
+    border-radius: 10px;
+    background-color: rgb(233, 233, 233);
+    box-shadow: inset 0px 0px 5px -2px rgb(160, 160, 160);
+}
+
+.main::-webkit-scrollbar-thumb{
+    background: dodgerblue;
+    border-radius: 10px;
+}
+
+.main::-webkit-scrollbar-thumb:hover{
+background: rgb(14, 129, 243);
+}
